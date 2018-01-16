@@ -22,6 +22,8 @@
 		3502B10B1FE262C700A6F41B /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502B10A1FE262C700A6F41B /* HomeModel.m */; };
 		3502B10E1FE276C800A6F41B /* HomeType2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502B10D1FE276C800A6F41B /* HomeType2ViewController.m */; };
 		3502B1111FE2773200A6F41B /* Type2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502B1101FE2773200A6F41B /* Type2Cell.m */; };
+		3508A5B71FE3A50E00A6EACD /* HomeType3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3508A5B61FE3A50E00A6EACD /* HomeType3ViewController.m */; };
+		356669051FEB676A00C0CF95 /* Type3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 356669041FEB676A00C0CF95 /* Type3Cell.m */; };
 		4FEFA29A7577D3D3C3298110 /* libPods-MasonryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A5190DA6A8C5C458BD2709 /* libPods-MasonryDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,10 @@
 		3502B10D1FE276C800A6F41B /* HomeType2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeType2ViewController.m; sourceTree = "<group>"; };
 		3502B10F1FE2773200A6F41B /* Type2Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type2Cell.h; sourceTree = "<group>"; };
 		3502B1101FE2773200A6F41B /* Type2Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type2Cell.m; sourceTree = "<group>"; };
+		3508A5B51FE3A50E00A6EACD /* HomeType3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeType3ViewController.h; sourceTree = "<group>"; };
+		3508A5B61FE3A50E00A6EACD /* HomeType3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeType3ViewController.m; sourceTree = "<group>"; };
+		356669031FEB676A00C0CF95 /* Type3Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type3Cell.h; sourceTree = "<group>"; };
+		356669041FEB676A00C0CF95 /* Type3Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type3Cell.m; sourceTree = "<group>"; };
 		7869E883B7A9040E75B62E41 /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8C81A7D444446E72D8972818 /* Pods-MasonryDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemoTests/Pods-MasonryDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		96902E55BD6B156865C7A8A4 /* Pods-MasonryDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemoUITests/Pods-MasonryDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +152,8 @@
 				3502B1001FE256FA00A6F41B /* HomeType1ViewController.m */,
 				3502B10C1FE276C800A6F41B /* HomeType2ViewController.h */,
 				3502B10D1FE276C800A6F41B /* HomeType2ViewController.m */,
+				3508A5B51FE3A50E00A6EACD /* HomeType3ViewController.h */,
+				3508A5B61FE3A50E00A6EACD /* HomeType3ViewController.m */,
 				3502B0D01FE2295400A6F41B /* Assets.xcassets */,
 				3502B0D21FE2295400A6F41B /* LaunchScreen.storyboard */,
 				3502B0D51FE2295400A6F41B /* Info.plist */,
@@ -179,6 +187,8 @@
 				3502B1061FE25F2500A6F41B /* Type1Cell.m */,
 				3502B10F1FE2773200A6F41B /* Type2Cell.h */,
 				3502B1101FE2773200A6F41B /* Type2Cell.m */,
+				356669031FEB676A00C0CF95 /* Type3Cell.h */,
+				356669041FEB676A00C0CF95 /* Type3Cell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -497,10 +507,12 @@
 				3502B10E1FE276C800A6F41B /* HomeType2ViewController.m in Sources */,
 				3502B0D71FE2295400A6F41B /* main.m in Sources */,
 				3502B0FB1FE24AF100A6F41B /* BaseTableViewController.m in Sources */,
+				356669051FEB676A00C0CF95 /* Type3Cell.m in Sources */,
 				3502B1011FE256FA00A6F41B /* HomeType1ViewController.m in Sources */,
 				3502B0FE1FE24D5400A6F41B /* HomeViewController.m in Sources */,
 				3502B1111FE2773200A6F41B /* Type2Cell.m in Sources */,
 				3502B0C91FE2295400A6F41B /* AppDelegate.m in Sources */,
+				3508A5B71FE3A50E00A6EACD /* HomeType3ViewController.m in Sources */,
 				3502B10B1FE262C700A6F41B /* HomeModel.m in Sources */,
 				3502B1071FE25F2500A6F41B /* Type1Cell.m in Sources */,
 			);

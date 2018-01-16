@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "HomeType1ViewController.h"
 #import "HomeType2ViewController.h"
+#import "HomeType3ViewController.h"
 
 @interface HomeViewController ()
 
@@ -26,7 +27,7 @@
 #pragma mark - 初始化
 
 - (void)initUI {
-    self.titleArray = @[@"自适应高度",@"压缩优先级",@"3"];
+    self.titleArray = @[@"自适应高度",@"压缩优先级",@"动态布局"];
 
 }
 
@@ -52,6 +53,9 @@
     }else if (indexPath.row == 1) {
         HomeType2ViewController *type2 = [[HomeType2ViewController alloc] init];
         [self.navigationController pushViewController:type2 animated:YES];
+    }else if (indexPath.row == 2) {
+        HomeType3ViewController *type3 = [[HomeType3ViewController alloc] init];
+        [self.navigationController pushViewController:type3 animated:YES];
     }
 }
 
